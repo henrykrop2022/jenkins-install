@@ -17,7 +17,6 @@ sudo firewall-cmd --permanent --zone=public --add-port=8080/tcp
 sudo firewall-cmd --reload
 # step 4. utilities
 sudo yum install net-tools -y
-echo "ifconfig"
 
 #Setting up Jenkins in the browser
    # 1. http://your_ip_or_domain:8080
@@ -25,3 +24,10 @@ echo "ifconfig"
    # 3: Install suggested plugins
 #Create first admin user
 echo "installation complete"
+
+# uninstallation of jenkins
+# sudo service jenkins stop
+# sudo yum clean all
+# sudo yum -y remove jenkins
+# sudo rm -rf /var/cache/jenkins
+# sudo rm -rf /var/lib/jenkins/
