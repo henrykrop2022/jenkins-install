@@ -20,6 +20,6 @@ echo "installation complete"
 sudo docker run hello-world
 
 #uninstall docker engine
-sudo yum remove docker-ce docker-ce-cli containerd.io docker-compose-plugin docker-ce-rootless-extras
-sudo rm -rf /var/lib/docker
-sudo rm -rf /var/lib/containerd
+# sudo yum remove docker-ce docker-ce-cli containerd.io docker-compose-plugin docker-ce-rootless-extras
+# sudo rm -rf /var/lib/docker
+# sudo rm -rf /var/lib/containerd
