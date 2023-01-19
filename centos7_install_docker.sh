@@ -15,5 +15,6 @@ sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/dock
 sudo systemctl enable docker
 sudo systemctl status docker
 
-run docker --version
 echo "installation complete"
+
+sudo docker run hello-world
